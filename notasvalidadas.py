@@ -30,3 +30,7 @@ while nota_parcial3 is None:
         except ValueError:
             print("Error: Ingresa un número válido para la nota del tercer parcial.")
 
+# Calcular el total de las notas
+total_notas = nota_parcial1 + nota_parcial2 + nota_parcial3
+
+
