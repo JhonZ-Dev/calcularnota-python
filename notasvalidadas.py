@@ -7,4 +7,6 @@ nota_parcial3 = None
 while nota_parcial1 is None:
     nota_parcial1_str = input("Ingresa la nota del primer parcial: ")
     if nota_parcial1_str.strip():  # Verificar que no sea una cadena vacía
+        try:
+            nota_parcial1 = float(nota_parcial1_str)
 
