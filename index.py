@@ -9,3 +9,4 @@ total_notas = nota_parcial1 + nota_parcial2 + nota_parcial3
 if total_notas > 14:
         print("El estudiante está aprobado con un total de", total_notas, "puntos.")
 else:
+            print("El estudiante está reprobado con un total de", total_notas, "puntos.")
