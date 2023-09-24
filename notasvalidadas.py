@@ -12,3 +12,12 @@ while nota_parcial1 is None:
         except ValueError:
             print("Error: Ingresa un número válido para la nota del primer parcial.")
 
+
+while nota_parcial2 is None:
+    nota_parcial2_str = input("Ingresa la nota del segundo parcial: ")
+    if nota_parcial2_str.strip():
+        try:
+            nota_parcial2 = float(nota_parcial2_str)
+        except ValueError:
+            print("Error: Ingresa un número válido para la nota del segundo parcial.")
+
