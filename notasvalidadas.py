@@ -9,4 +9,6 @@ while nota_parcial1 is None:
     if nota_parcial1_str.strip():  # Verificar que no sea una cadena vacía
         try:
             nota_parcial1 = float(nota_parcial1_str)
+        except ValueError:
+            print("Error: Ingresa un número válido para la nota del primer parcial.")
 
